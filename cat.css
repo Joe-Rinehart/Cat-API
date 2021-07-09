@@ -1,0 +1,31 @@
+body {
+    background-color: lightcoral;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    height: 700px;
+    width: 600px;
+    border-radius: 10px;
+    border-style: dashed;
+    border-width: 10px;
+    border-color: deepskyblue;
+}
+
+.card-img-top {
+    height: 400px;
+}
+
+.card-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
