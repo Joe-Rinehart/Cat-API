@@ -11,7 +11,7 @@ body {
 }
 
 .card {
-    height: 700px;
+    height: 550px;
     width: 600px;
     border-radius: 10px;
     border-style: dashed;
@@ -19,13 +19,11 @@ body {
     border-color: deepskyblue;
 }
 
-.card-img-top {
+#card-img-top {
     height: 400px;
 }
 
-.card-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#button-fetch {
+    margin: 12px;
 }
 
