@@ -22,7 +22,6 @@ function displayPokemon(data) {
     pokemonName.innerText = "Name: " + data.name.charAt(0).toUpperCase() + data.name.slice(1)
     cardText.innerText = "Ability: " + data.abilities[0].ability.name.charAt(0).toUpperCase() + data.abilities[0].ability.name.slice(1)
     cardImage.src = data.sprites.front_default
-
 }
 
 function handleClick() {
